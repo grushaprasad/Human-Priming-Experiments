@@ -7,7 +7,7 @@ PennController.ResetPrefix(null);
 //PennController.PreloadZip("https://consonant-perception-exp1.s3.us-east-2.amazonaws.com/mp3_test.zip");
 
 
-PennController("instructions",
+PennController("instructions", "experiment"
 
     newTextInput("worker_id", "Please enter your MTurk worker ID")
         .settings.css("font-size", "larger")
@@ -47,8 +47,7 @@ PennController("instructions",
     
 );
 
-PennController.Template( PennController.defaultTable.filter("Block","practice_trial1") ,
-    row => PennController( "practice_trial1" ,
+PennController.Template(row => PennController( "experiment" ,
     
     newText("Prime", row.prime)
         .settings.center()

@@ -53,12 +53,12 @@ PennController.Template(row => PennController( "experiment" ,
     
     newText("Prime", row.prime)
         .settings.css("font-size", "larger")
+        .settings.center()
         .print()
     ,
     
     newButton("prime", "Continue")
-        .settings.css("font-size", "larger")
-        .settings.css("margin", "4em")
+        .settings.center()
         .settings.log()
         .print()
         .wait()
@@ -71,12 +71,12 @@ PennController.Template(row => PennController( "experiment" ,
 
     newText("Target", row.target)
         .settings.css("font-size", "larger")
+        .settings.center()
         .print()
     ,
         
     newButton("target", "Continue")
-        .settings.css("font-size", "larger")
-        .settings.css("margin", "4em")
+        .settings.center()
         .settings.log()
         .print()
         .wait()
@@ -89,6 +89,7 @@ PennController.Template(row => PennController( "experiment" ,
 
     newText("transition", "Please wait for the question")
         .settings.css("font-size", "larger")
+        .settings.center()
         .print()
     ,
 
@@ -103,6 +104,7 @@ PennController.Template(row => PennController( "experiment" ,
 
     newText("Question", row.question)
         .settings.css("font-size", "larger")
+        .settings.center()
         .print()
     ,
 

@@ -10,7 +10,7 @@ PennController.ResetPrefix(null);
 PennController("instructions",
 
     newTextInput("worker_id", "Please enter your MTurk worker ID")
-        .settings.css("font-size", "larger")
+        .settings.css("font-size", "large")
         .settings.log()
         .settings.lines(0)
         .settings.size(400, 50)
@@ -19,6 +19,7 @@ PennController("instructions",
 
     newButton("enter_id", "Continue")
         .settings.css("font-size", "larger")
+        .settings.center()
         .print()
         .wait()
         .remove()

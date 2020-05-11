@@ -37,6 +37,7 @@ PennController("instructions",
     
     newButton("start_practice1", "Begin practice")
         .settings.css("font-size", "larger")
+        .settings.css("object-position", "250px 125px")
         .settings.center()
         .print()
         .wait()
@@ -57,6 +58,7 @@ PennController.Template(row => PennController( "experiment" ,
     
     newButton("prime", "Continue")
         .settings.css("font-size", "larger")
+        .settings.css("margin", "4em")
         .settings.log()
         .print()
         .wait()
@@ -74,6 +76,7 @@ PennController.Template(row => PennController( "experiment" ,
         
     newButton("target", "Continue")
         .settings.css("font-size", "larger")
+        .settings.css("margin", "4em")
         .settings.log()
         .print()
         .wait()
@@ -106,6 +109,8 @@ PennController.Template(row => PennController( "experiment" ,
     newScale("response",   "Yes", "No")
         .settings.log()
         .settings.labelsPosition("top")  // Position the labels
+        .settings.css("font-size", "larger")
+        .settings.css("margin", "4em")
         .print()
         .wait()
     ,

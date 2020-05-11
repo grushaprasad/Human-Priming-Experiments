@@ -3,3 +3,15 @@ td.PennController-Scale-scaleButton {
     color:blue;
     margin: 10px auto;
 }
+
+td.PennController-Text {
+    padding:15 30 15 30;
+    color:blue;
+    margin: 10px auto;
+}
+
+td.PennController-Button {
+    padding:15 30 15 30;
+    color:blue;
+    margin: 10px auto;
+}

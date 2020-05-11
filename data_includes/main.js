@@ -97,7 +97,7 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
     ,
 
-    newText("Question", row.target)
+    newText("Question", row.question)
         .settings.css("font-size", "larger")
         .print()
     ,

@@ -9,7 +9,7 @@ span.PennController-Text {
     font-size: larger;
     padding: 15 30 15 30;
     margin: 10px auto;
-    position: 150px 250px;
+    object-position: 150px 250px;
 }
 
 button.PennController-Button {

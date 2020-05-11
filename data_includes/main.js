@@ -111,8 +111,7 @@ PennController.Template(row => PennController( "experiment" ,
     newScale("response",   "Yes", "No")
         .settings.log()
         .settings.labelsPosition("top")  // Position the labels
-        .settings.css("font-size", "larger")
-        .settings.css("margin", "4em")
+        .settings.center()
         .print()
         .wait()
     ,

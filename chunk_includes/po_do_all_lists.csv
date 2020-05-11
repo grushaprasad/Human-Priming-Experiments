@@ -1,4 +1,4 @@
-Group,prime,target,question,answer, prime_type,target_type,prime_id,target_id,ques_ind
+Group,prime,target,question,answer,prime_type,target_type,prime_id,target_id,ques_ind
 a1,The dog was confined to the living room while the vacuum was running.,The rabbit hopped across the street without getting hit by a car.,Was the rabbit hit by the car?,No,Filler,Filler,filler13,filler54,1
 a1,The old sheikh bought his mischievous son a car.,The annoyed coach read his disgruntled team the rules.,Was the team enthusiastic?,No,DO,DO,bought1,read1,1
 a1,The seated boy rose up to answer the teacher's question on the chalkboard.,The jogger inhaled deeply in an attempt to regain his breath.,Did the boy get out of his seat?,No,Filler,Filler,filler40,filler24,0

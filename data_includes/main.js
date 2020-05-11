@@ -1,13 +1,13 @@
 // PennController.Sequence( "instructions", randomize("practice_trial1"), "start_exp1", randomize("without_precursor"), "end_part1", randomize("practice_trial2"), "start_exp2", randomize("with_precursor"), "demographic", "send_results", "exp_end");
 
-PennController.Sequence( "instructions");
+PennController.Sequence("instructions", "experiment");
 
 PennController.ResetPrefix(null);
 
 //PennController.PreloadZip("https://consonant-perception-exp1.s3.us-east-2.amazonaws.com/mp3_test.zip");
 
 
-PennController("instructions", "experiment"
+PennController("instructions",
 
     newTextInput("worker_id", "Please enter your MTurk worker ID")
         .settings.css("font-size", "larger")
@@ -50,7 +50,6 @@ PennController("instructions", "experiment"
 PennController.Template(row => PennController( "experiment" ,
     
     newText("Prime", row.prime)
-        .settings.center()
         .settings.css("font-size", "larger")
         .print()
     ,
@@ -65,9 +64,9 @@ PennController.Template(row => PennController( "experiment" ,
 
     getText("Prime")
         .remove()
+    ,
 
     newText("Target", row.target)
-        .settings.center()
         .settings.css("font-size", "larger")
         .print()
     ,
@@ -82,22 +81,30 @@ PennController.Template(row => PennController( "experiment" ,
 
     getText("Target")
         .remove()
+    ,
 
-    newTimer("ITI", 1000)
-        .start()
-        .wait()
-    )
-    
-    newText("Question", row.target)
-        .settings.center()
+    newText("transition", "Please wait for the question")
         .settings.css("font-size", "larger")
         .print()
     ,
 
-    newScale("response",    "Yes", "No")
+    newTimer("ITI", 1000)
+        .start()
+        .wait()
+    ,
+
+    getText("transition")
+        .remove()
+    ,
+
+    newText("Question", row.target)
+        .settings.css("font-size", "larger")
+        .print()
+    ,
+
+    newScale("response",   "Yes", "No")
         .settings.log()
         .settings.labelsPosition("top")  // Position the labels
-        .settings.before( getText("green") )
         .print()
         .wait()
     ,
@@ -106,6 +113,11 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
 
     ,
+
+    getScale("response")
+        .remove()
+    ,
+
 
     newTimer("ITI", 1000)
         .start()

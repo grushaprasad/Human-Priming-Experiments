@@ -1,6 +1,6 @@
 // PennController.Sequence( "instructions", randomize("practice_trial1"), "start_exp1", randomize("without_precursor"), "end_part1", randomize("practice_trial2"), "start_exp2", randomize("with_precursor"), "demographic", "send_results", "exp_end");
 
-PennController.Sequence("consent", "instructions", "experiment");
+PennController.Sequence("consent", "instructions", "experiment", "demographic", "participant_obs", "exp_end");
 
 PennController.ResetPrefix(null);
 
@@ -173,6 +173,7 @@ PennController("exp_end",
         .wait()            // Timer never started: will wait forever
 )
 
+PennController.DebugOff()
 
 
 

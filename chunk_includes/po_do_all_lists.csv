@@ -17,7 +17,7 @@ a1,The jogger accidentally crushed the flower underneath her foot.,Adam's hand s
 a1,The new student talked to all of her new classmates on the playground during recess.,Patrick woke up to find himself alone in his house.,Were there other people around when Patrick woke up?,No,Filler,Filler,filler1,filler14,1
 a1,The flustered babysitter made some porridge for the feverish toddler.,The compassionate lady fed some the stray dog some meat.,Was the dog homeless?,Yes,PO,DO,made2,fed1,1
 a1,The impatient brother immediately took the toy away from his younger sister.,The secret society framed a local man for all of their crimes.,Did the boy want the toy?,No,Filler,Filler,filler39,filler52,0
-a1,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 45 minutes?,No,Filler,Filler,filler50,filler6,0
+a1,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 60 minutes?,No,Filler,Filler,filler50,filler6,0
 a1,A different kind of fire arose within Andrew as he thought about the new idea.,The friends studied together all day for an upcoming exam in their hardest class.,Did the friends find the class difficult?,No,Filler,Filler,filler3,filler31,1
 a1,The rich farmer bought a horse for his headstrong daughter.,The talented seamstress sewed the ambitious actress a skirt.,Was the skirt made for a singer?,No,PO,DO,bought2,sewed2,1
 a1,The students eagerly participated in the annual athletics festival.,The woman eagerly waited to hear back from the dance company.,Was the woman looking forward to hearing some news?,No,Filler,Filler,filler56,filler32,1
@@ -38,7 +38,7 @@ a1,The excited toddler blew out all the candles and wished for a pony.,The new m
 a1,The enthusiastic volunteers offered the sick patients the soup.,The dutiful father baked his loving family some pie.,Were the volunteers healthy?,No,DO,DO,offered2,baked2,0
 a1,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
 a1,The thoughtful kids saved some food for their hungry mother.,The quiet caregiver read the sleepy infant a book.,Was the infant tired?,Yes,PO,DO,saved2,read2,1
-a1,Lily trod on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
+a1,Lily stepped on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
 a1,The philanthropic foundation gave some money to the dying university.,The wealthy widow left the Catholic church her property.,Was the widow religious?,Yes,PO,DO,gave1,left2,1
 a1,The celebrity redid her makeup before going on stage.,The strict instructor confiscated the students' cell phones before class.,Did the celebirty go on stage?,No,Filler,Filler,filler33,filler44,0
 a1,The corrupt inspector offered a deal to the bar owner.,The steadfast emperor promised the intrepid hunter a reward.,Was the hunter led to expect a promotion?,No,PO,DO,offered1,promised2,1
@@ -48,7 +48,7 @@ a1,The sparkles on the celebrity's dress glittered under the harsh lighting.,The
 a1,The management company rented the government agency the building.,The zealous prince built his charming lover a palace.,Did the building belong to the management agency?,Yes,DO,DO,rented1,built2,0
 a1,The teacher saw through the mischievous student's act.,The hungry dog ate all of the food in the bowl.,Was the teacher aware that the student was acting?,No,Filler,Filler,filler34,filler20,0
 a1,The little girl gave the toy to her older brother.,The lively grandmother sewed her pretty granddaughter a dress.,Was the little girl a single child?,No,PO,DO,gave2,sewed1,0
-a1,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy?,No,Filler,Filler,filler53,filler55,0
+a1,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy with the students' performance?,No,Filler,Filler,filler53,filler55,0
 a2,The dog was confined to the living room while the vacuum was running.,The rabbit hopped across the street without getting hit by a car.,Was the rabbit hit by the car?,No,Filler,Filler,filler13,filler54,1
 a2,The old sheikh bought a car for his mischievous son.,The annoyed coach read his disgruntled team the rules.,Was the team enthusiastic?,No,PO,DO,bought1,read1,1
 a2,The seated boy rose up to answer the teacher's question on the chalkboard.,The jogger inhaled deeply in an attempt to regain his breath.,Did the boy get out of his seat?,No,Filler,Filler,filler40,filler24,0
@@ -67,7 +67,7 @@ a2,The jogger accidentally crushed the flower underneath her foot.,Adam's hand s
 a2,The new student talked to all of her new classmates on the playground during recess.,Patrick woke up to find himself alone in his house.,Were there other people around when Patrick woke up?,No,Filler,Filler,filler1,filler14,1
 a2,The flustered babysitter made the feverish toddler some porridge.,The compassionate lady fed some the stray dog some meat.,Was the dog homeless?,Yes,DO,DO,made2,fed1,1
 a2,The impatient brother immediately took the toy away from his younger sister.,The secret society framed a local man for all of their crimes.,Did the boy want the toy?,No,Filler,Filler,filler39,filler52,0
-a2,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 45 minutes?,No,Filler,Filler,filler50,filler6,0
+a2,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 60 minutes?,No,Filler,Filler,filler50,filler6,0
 a2,A different kind of fire arose within Andrew as he thought about the new idea.,The friends studied together all day for an upcoming exam in their hardest class.,Did the friends find the class difficult?,No,Filler,Filler,filler3,filler31,1
 a2,The rich farmer bought his headstrong daughter a horse.,The talented seamstress sewed the ambitious actress a skirt.,Was the skirt made for a singer?,No,DO,DO,bought2,sewed2,1
 a2,The students eagerly participated in the annual athletics festival.,The woman eagerly waited to hear back from the dance company.,Was the woman looking forward to hearing some news?,No,Filler,Filler,filler56,filler32,1
@@ -88,7 +88,7 @@ a2,The excited toddler blew out all the candles and wished for a pony.,The new m
 a2,The enthusiastic volunteers offered the soup to the sick patients.,The dutiful father baked his loving family some pie.,Were the volunteers healthy?,No,PO,DO,offered2,baked2,0
 a2,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
 a2,The thoughtful kids saved their hungry mother some food.,The quiet caregiver read the sleepy infant a book.,Was the infant tired?,Yes,DO,DO,saved2,read2,1
-a2,Lily trod on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
+a2,Lily stepped on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
 a2,The philanthropic foundation gave the dying university some money.,The wealthy widow left the Catholic church her property.,Was the widow religious?,Yes,DO,DO,gave1,left2,1
 a2,The celebrity redid her makeup before going on stage.,The strict instructor confiscated the students' cell phones before class.,Did the celebirty go on stage?,No,Filler,Filler,filler33,filler44,0
 a2,The corrupt inspector offered the bar owner a deal.,The steadfast emperor promised the intrepid hunter a reward.,Was the hunter led to expect a promotion?,No,DO,DO,offered1,promised2,1
@@ -98,7 +98,7 @@ a2,The sparkles on the celebrity's dress glittered under the harsh lighting.,The
 a2,The management company rented the building to the government agency.,The zealous prince built his charming lover a palace.,Did the building belong to the management agency?,Yes,PO,DO,rented1,built2,0
 a2,The teacher saw through the mischievous student's act.,The hungry dog ate all of the food in the bowl.,Was the teacher aware that the student was acting?,No,Filler,Filler,filler34,filler20,0
 a2,The little girl gave her older brother the toy.,The lively grandmother sewed her pretty granddaughter a dress.,Was the little girl a single child?,No,DO,DO,gave2,sewed1,0
-a2,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy?,No,Filler,Filler,filler53,filler55,0
+a2,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy with the students' performance?,No,Filler,Filler,filler53,filler55,0
 b1,The dog was confined to the living room while the vacuum was running.,The rabbit hopped across the street without getting hit by a car.,Was the rabbit hit by the car?,No,Filler,Filler,filler13,filler54,1
 b1,The annoyed coach read his disgruntled team the rules.,The old sheikh bought his mischievous son a car.,Did the sheikh buy a car for himself?,No,DO,DO,read1,bought1,1
 b1,The seated boy rose up to answer the teacher's question on the chalkboard.,The jogger inhaled deeply in an attempt to regain his breath.,Did the boy get out of his seat?,No,Filler,Filler,filler40,filler24,0
@@ -117,7 +117,7 @@ b1,The jogger accidentally crushed the flower underneath her foot.,Adam's hand s
 b1,The new student talked to all of her new classmates on the playground during recess.,Patrick woke up to find himself alone in his house.,Were there other people around when Patrick woke up?,No,Filler,Filler,filler1,filler14,1
 b1,The compassionate lady fed some meat to the stray dog.,The flustered babysitter made the feverish toddler some porridge.,Was the toddler sick?,Yes,PO,DO,fed1,made2,1
 b1,The impatient brother immediately took the toy away from his younger sister.,The secret society framed a local man for all of their crimes.,Did the boy want the toy?,No,Filler,Filler,filler39,filler52,0
-b1,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 45 minutes?,No,Filler,Filler,filler50,filler6,0
+b1,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 60 minutes?,No,Filler,Filler,filler50,filler6,0
 b1,A different kind of fire arose within Andrew as he thought about the new idea.,The friends studied together all day for an upcoming exam in their hardest class.,Did the friends find the class difficult?,No,Filler,Filler,filler3,filler31,1
 b1,The talented seamstress sewed a skirt for the ambitious actress.,The rich farmer bought his headstrong daughter a horse.,Was the farmer's daughter accommodating?,No,PO,DO,sewed2,bought2,1
 b1,The students eagerly participated in the annual athletics festival.,The woman eagerly waited to hear back from the dance company.,Was the woman looking forward to hearing some news?,No,Filler,Filler,filler56,filler32,1
@@ -138,7 +138,7 @@ b1,The excited toddler blew out all the candles and wished for a pony.,The new m
 b1,The dutiful father baked his loving family some pie.,The enthusiastic volunteers offered the sick patients the soup.,Was it the mother who baked the pie?,No,DO,DO,baked2,offered2,0
 b1,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
 b1,The quiet caregiver read a book to the sleepy infant.,The thoughtful kids saved their hungry mother some food.,Did the kids leave some food?,Yes,PO,DO,read2,saved2,1
-b1,Lily trod on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
+b1,Lily stepped on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
 b1,The wealthy widow left her property to the Catholic church.,The philanthropic foundation gave the dying university some money.,Was the university struggling finanically?,Yes,PO,DO,left2,gave1,1
 b1,The celebrity redid her makeup before going on stage.,The strict instructor confiscated the students' cell phones before class.,Did the celebirty go on stage?,No,Filler,Filler,filler33,filler44,0
 b1,The steadfast emperor promised a reward to the bounty hunter.,The corrupt inspector offered the bar owner a deal.,Was the inspector law abiding?,No,PO,DO,promised2,offered1,1
@@ -148,7 +148,7 @@ b1,The sparkles on the celebrity's dress glittered under the harsh lighting.,The
 b1,The zealous prince built his charming lover a palace.,The management company rented the government agency the building.,Did the prince build a palace?,Yes,DO,DO,built2,rented1,0
 b1,The teacher saw through the mischievous student's act.,The hungry dog ate all of the food in the bowl.,Was the teacher aware that the student was acting?,No,Filler,Filler,filler34,filler20,0
 b1,The lively grandmother sewed a dress for her pretty granddaughter.,The little girl gave her older brother the toy.,Was the grandmother tired?,No,PO,DO,sewed1,gave2,0
-b1,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy?,No,Filler,Filler,filler53,filler55,0
+b1,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy with the students' performance?,No,Filler,Filler,filler53,filler55,0
 b2,The dog was confined to the living room while the vacuum was running.,The rabbit hopped across the street without getting hit by a car.,Was the rabbit hit by the car?,No,Filler,Filler,filler13,filler54,1
 b2,The annoyed coach read the rules to his disgruntled team.,The old sheikh bought his mischievous son a car.,Did the sheikh buy a car for himself?,No,PO,DO,read1,bought1,1
 b2,The seated boy rose up to answer the teacher's question on the chalkboard.,The jogger inhaled deeply in an attempt to regain his breath.,Did the boy get out of his seat?,No,Filler,Filler,filler40,filler24,0
@@ -167,7 +167,7 @@ b2,The jogger accidentally crushed the flower underneath her foot.,Adam's hand s
 b2,The new student talked to all of her new classmates on the playground during recess.,Patrick woke up to find himself alone in his house.,Were there other people around when Patrick woke up?,No,Filler,Filler,filler1,filler14,1
 b2,The compassionate lady fed some the stray dog some meat.,The flustered babysitter made the feverish toddler some porridge.,Was the toddler sick?,Yes,DO,DO,fed1,made2,1
 b2,The impatient brother immediately took the toy away from his younger sister.,The secret society framed a local man for all of their crimes.,Did the boy want the toy?,No,Filler,Filler,filler39,filler52,0
-b2,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 45 minutes?,No,Filler,Filler,filler50,filler6,0
+b2,The chairman spoke for half an hour at the meeting.,The arrogant man added the woman's contact information to his phone.,Did the chairman speak for 60 minutes?,No,Filler,Filler,filler50,filler6,0
 b2,A different kind of fire arose within Andrew as he thought about the new idea.,The friends studied together all day for an upcoming exam in their hardest class.,Did the friends find the class difficult?,No,Filler,Filler,filler3,filler31,1
 b2,The talented seamstress sewed the ambitious actress a skirt.,The rich farmer bought his headstrong daughter a horse.,Was the farmer's daughter accommodating?,No,DO,DO,sewed2,bought2,1
 b2,The students eagerly participated in the annual athletics festival.,The woman eagerly waited to hear back from the dance company.,Was the woman looking forward to hearing some news?,No,Filler,Filler,filler56,filler32,1
@@ -188,7 +188,7 @@ b2,The excited toddler blew out all the candles and wished for a pony.,The new m
 b2,The dutiful father baked some pie for his loving family.,The enthusiastic volunteers offered the sick patients the soup.,Was it the mother who baked the pie?,No,PO,DO,baked2,offered2,0
 b2,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
 b2,The quiet caregiver read the sleepy infant a book.,The thoughtful kids saved their hungry mother some food.,Did the kids leave some food?,Yes,DO,DO,read2,saved2,1
-b2,Lily trod on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
+b2,Lily stepped on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,No,Filler,Filler,filler59,filler29,0
 b2,The wealthy widow left the Catholic church her property.,The philanthropic foundation gave the dying university some money.,Was the university struggling finanically?,Yes,DO,DO,left2,gave1,1
 b2,The celebrity redid her makeup before going on stage.,The strict instructor confiscated the students' cell phones before class.,Did the celebirty go on stage?,No,Filler,Filler,filler33,filler44,0
 b2,The steadfast emperor promised the intrepid hunter a reward.,The corrupt inspector offered the bar owner a deal.,Was the inspector law abiding?,No,DO,DO,promised2,offered1,1
@@ -198,4 +198,4 @@ b2,The sparkles on the celebrity's dress glittered under the harsh lighting.,The
 b2,The zealous prince built a palace for his charming lover.,The management company rented the government agency the building.,Did the prince build a palace?,Yes,PO,DO,built2,rented1,0
 b2,The teacher saw through the mischievous student's act.,The hungry dog ate all of the food in the bowl.,Was the teacher aware that the student was acting?,No,Filler,Filler,filler34,filler20,0
 b2,The lively grandmother sewed her pretty granddaughter a dress.,The little girl gave her older brother the toy.,Was the grandmother tired?,No,DO,DO,sewed1,gave2,0
-b2,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy?,No,Filler,Filler,filler53,filler55,0
+b2,The disappointed teacher graded the final exams very harshly.,The businessman strode purposefully into the meeting.,Was the teacher unhappy with the students' performance?,No,Filler,Filler,filler53,filler55,0

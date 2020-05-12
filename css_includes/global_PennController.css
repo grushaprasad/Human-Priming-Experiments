@@ -2,12 +2,11 @@ td.PennController-Scale-scaleButton {
     padding:15 30 15 30;
     color:blue;
     margin: 10px auto;
-    font-size: x-large;
 
 }
 
 td.PennController-Scale-label {
-    font-size: large
+    font-size: larger
 }
 
 span.PennController-Text {

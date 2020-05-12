@@ -14,8 +14,8 @@ span.PennController-Text {
 }
 
 button.PennController-Button {
-    padding: 10px 5px 10px 5px;
-    margin: 5em 5em 5em 5em;
-    border-width: 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 10em 5em 10em 5em;
+    border-width: 10px;
     font-size: larger;
 }

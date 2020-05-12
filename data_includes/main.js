@@ -1,53 +1,46 @@
 // PennController.Sequence( "instructions", randomize("practice_trial1"), "start_exp1", randomize("without_precursor"), "end_part1", randomize("practice_trial2"), "start_exp2", randomize("with_precursor"), "demographic", "send_results", "exp_end");
 
-PennController.Sequence("instructions", "experiment");
+PennController.Sequence("consent", "instructions", "experiment");
 
 PennController.ResetPrefix(null);
 
 //PennController.PreloadZip("https://consonant-perception-exp1.s3.us-east-2.amazonaws.com/mp3_test.zip");
 
 
+PennController("consent",
+
+    newHtml("consent", "consent.html")
+        .settings.log()
+        .print()
+    ,
+
+    newButton("continue", "I consent")
+        .settings.css("font-size", "larger")
+        .print()
+        .wait(
+            getHtml("consent").test.complete()
+                .failure( getHtml("consent").warn() )
+        )
+);
+
+
 PennController("instructions",
 
-    newTextInput("worker_id", "Please enter your MTurk worker ID")
-        .settings.css("font-size", "large")
+    newHtml("instructions", "instructions.html")
         .settings.log()
-        .settings.lines(0)
-        .settings.size(400, 50)
         .print()
     ,
 
-    newButton("enter_id", "Continue")
-        .settings.css("font-size", "larger")
-        .settings.center()
-        .print()
-        .wait()
-        .remove()
-    ,
-
-    getTextInput("worker_id")
-        .remove()
-    ,
-
-    newText("instrutions", "<p> In this experiment, you will see pairs of sentences and you will then be asked to answer a question about one of the two sentences. In total, you will be seeing 50 pairs of sentences.  </p>" )
-        .settings.size(800, 100)
+    newButton("continue", "Start experiment")
         .settings.css("font-size", "larger")
         .print()
-    ,
-    
-    newButton("start_practice1", "Begin practice")
-        .settings.css("font-size", "larger")
-        .settings.css("object-position", "250px 125px")
-        .settings.center()
-        .print()
-        .wait()
-        .remove()
-    ,
-
-    getText("instrutions")
-        .remove()
-    
+        .wait(
+            getHtml("instructions").test.complete()
+                .failure( getHtml("instructions").warn() )
+        )
 );
+
+
 
 PennController.Template(row => PennController( "experiment" ,
     
@@ -136,6 +129,52 @@ PennController.Template(row => PennController( "experiment" ,
     .log("ques_ind", row.ques_ind)
     .log("group", row.Group)
 );
+
+
+PennController("demographic",
+
+    newHtml("demographics", "demographic.html")
+        .settings.log()
+        .print()
+    ,
+
+    newButton("continue", "Continue")
+        .settings.css("font-size", "larger")
+        .print()
+        .wait(
+            getHtml("demographics").test.complete()
+                .failure( getHtml("demographics").warn() )
+        )
+);
+
+PennController("participant_obs",
+
+    newHtml("participant_obervations", "participant_obervations.html")
+        .settings.log()
+        .print()
+    ,
+
+    newButton("continue", "Finish experiment")
+        .settings.css("font-size", "larger")
+        .print()
+        .wait(
+            getHtml("participant_obervations").test.complete()
+                .failure( getHtml("participant_obervations").warn() )
+        )
+);
+
+
+PennController("exp_end", 
+    newText("end", "Thank you for participating in this experiment. Your survey code is TyhRSx3k7")
+        .print()
+    ,
+
+    newTimer("forever", 1)
+        .wait()            // Timer never started: will wait forever
+)
+
+
+
 
 
 

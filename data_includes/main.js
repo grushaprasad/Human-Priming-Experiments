@@ -14,7 +14,7 @@ PennController("consent",
         .print()
     ,
 
-    newButton("continue", "I consent")
+    newButton("continue", "Continue")
         .settings.css("font-size", "larger")
         .print()
         .wait(

@@ -2,7 +2,7 @@ td.PennController-Scale-scaleButton {
     padding:15 30 15 30;
     color:blue;
     margin: 10px auto;
-    font-size: larger;
+    font-size: x-large;
 
 }
 
@@ -15,7 +15,7 @@ span.PennController-Text {
 
 button.PennController-Button {
     padding: 5px 5px 5px 5px;
-    margin: 10em 5em 10em 5em;
+    margin: 20em 5em 20em 5em;
     border-width: 10px;
     font-size: larger;
 }

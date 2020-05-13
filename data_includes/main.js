@@ -120,7 +120,7 @@ PennController.Template(row => PennController( "experiment" ,
         .wait()
     ,
 
-    getVar("RT_resp").set( v_prime => Date.now() - v_resp )
+    getVar("RT_resp").set( v_resp => Date.now() - v_resp )
     ,
 
     getText("Question")

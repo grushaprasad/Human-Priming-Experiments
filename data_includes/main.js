@@ -193,7 +193,6 @@ PennController("exp_end",
         .wait()            // Timer never started: will wait forever
 )
 
-PennController.DebugOff()
 
 
 

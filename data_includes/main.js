@@ -1,6 +1,6 @@
 // PennController.Sequence( "instructions", randomize("practice_trial1"), "start_exp1", randomize("without_precursor"), "end_part1", randomize("practice_trial2"), "start_exp2", randomize("with_precursor"), "demographic", "send_results", "exp_end");
 
-PennController.Sequence("consent", "instructions", "experiment", "demographic", "participant_obs", "exp_end");
+PennController.Sequence("consent", "instructions", "experiment", "demographic", "participant_obs", "send_results", "exp_end");
 
 PennController.ResetPrefix(null);
 
@@ -183,6 +183,7 @@ PennController("participant_obs",
         )
 );
 
+PennController.SendResults("send_results");
 
 PennController("exp_end", 
     newText("end", "Thank you for participating in this experiment. Your survey code is TyhRSx3k7")

@@ -83,7 +83,7 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
     ,
 
-    getVar("RT_target").set( v_prime => Date.now() - v_target )
+    getVar("RT_target").set( v_target => Date.now() - v_target )
     ,
 
     getText("Target")
@@ -104,7 +104,7 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
     ,
 
-    newVar("RT_resp").global().set( v_resp => Date.now())
+    newVar("RT_resp").global().set(v_resp => Date.now())
     ,
 
     newText("Question", row.question)

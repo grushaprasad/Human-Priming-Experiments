@@ -48,6 +48,9 @@ PennController.Template(row => PennController( "experiment" ,
         .settings.center()
         .print()
     ,
+
+    newVar("RT_prime").global().set( v_prime => Date.now())
+    ,
     
     newButton("prime", "Continue")
         .settings.center()
@@ -57,8 +60,14 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
     ,
 
+    getVar("RT_prime").set( v_prime => Date.now() - v_prime )
+    ,
+
     getText("Prime")
         .remove()
+    ,
+
+    newVar("RT_target").global().set( v_target => Date.now())
     ,
 
     newText("Target", row.target)
@@ -74,11 +83,14 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
     ,
 
+    getVar("RT_target").set( v_prime => Date.now() - v_target )
+    ,
+
     getText("Target")
         .remove()
     ,
 
-    newText("transition", "Please wait for the question")
+    newText("transition", " ")
         .settings.center()
         .print()
     ,
@@ -92,6 +104,9 @@ PennController.Template(row => PennController( "experiment" ,
         .remove()
     ,
 
+    newVar("RT_resp").global().set( v_resp => Date.now())
+    ,
+
     newText("Question", row.question)
         .settings.center()
         .print()
@@ -103,6 +118,9 @@ PennController.Template(row => PennController( "experiment" ,
         .settings.center()
         .print()
         .wait()
+    ,
+
+    getVar("RT_resp").set( v_prime => Date.now() - v_resp )
     ,
 
     getText("Question")
@@ -120,7 +138,6 @@ PennController.Template(row => PennController( "experiment" ,
         .wait()
     )
 
-
     .log("prime_type", row.prime_type)
     .log("target_type", row.target_type)
     .log("prime_id", row.prime_id)
@@ -128,6 +145,9 @@ PennController.Template(row => PennController( "experiment" ,
     .log("answer", row.answer)
     .log("ques_ind", row.ques_ind)
     .log("group", row.Group)
+    .log("RT_prime", getVar("RT_prime"))
+    .log("RT_target", getVar("RT_target"))
+    .log("RT_resp", getVar("RT_resp"))
 );
 
 

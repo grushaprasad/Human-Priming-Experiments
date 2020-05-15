@@ -169,7 +169,7 @@ PennController("demographic",
 
 PennController("participant_obs",
 
-    newHtml("participant_obervations", "participant_obervations.html")
+    newHtml("participant_obervations", "participant_observations.html")
         .settings.log()
         .print()
     ,

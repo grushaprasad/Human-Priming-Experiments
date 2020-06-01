@@ -35,7 +35,7 @@ a1,The animated teacher told the eager children a story.,The artistic secretary 
 a1,The basketball player's ankle swelled as he limped off the court.,"Even though Joanna flew directly to Boston on Friday, she still missed the conference.",Was the basketball player's knee hurt?,No,Filler,Filler,filler35,filler23,0
 a1,The infamous politician told the influential columnist a secret.,The considerate director promised his employees a promotion.,Did the politician reveal something confidential?,Yes,DO,DO,told1,promised1,0
 a1,The excited toddler blew out all the candles and wished for a pony.,The new manager undid most of the good work of his predecessor.,Was the new manager better than his predecessor?,No,Filler,Filler,filler7,filler25,1
-a1,The enthusiastic volunteers offered the sick patients the soup.,The dutiful father baked his loving family some pie.,Were the volunteers healthy?,No,DO,DO,offered2,baked2,0
+a1,The enthusiastic volunteers offered the sick patients the soup.,The dutiful father baked his loving family some pie.,Were the volunteers sick?,No,DO,DO,offered2,baked2,0
 a1,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
 a1,The thoughtful kids saved some food for their hungry mother.,The quiet caregiver read the sleepy infant a book.,Was the infant tired?,Yes,PO,DO,saved2,read2,1
 a1,Lily stepped on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,Yes,Filler,Filler,filler59,filler29,0
@@ -85,7 +85,7 @@ a2,The animated teacher told a story to the eager children.,The artistic secreta
 a2,The basketball player's ankle swelled as he limped off the court.,"Even though Joanna flew directly to Boston on Friday, she still missed the conference.",Was the basketball player's knee hurt?,No,Filler,Filler,filler35,filler23,0
 a2,The infamous politician told a secret to the influential columnist.,The considerate director promised his employees a promotion.,Did the politician reveal something confidential?,Yes,PO,DO,told1,promised1,0
 a2,The excited toddler blew out all the candles and wished for a pony.,The new manager undid most of the good work of his predecessor.,Was the new manager better than his predecessor?,No,Filler,Filler,filler7,filler25,1
-a2,The enthusiastic volunteers offered the soup to the sick patients.,The dutiful father baked his loving family some pie.,Were the volunteers healthy?,No,PO,DO,offered2,baked2,0
+a2,The enthusiastic volunteers offered the soup to the sick patients.,The dutiful father baked his loving family some pie.,Were the volunteers sick?,No,PO,DO,offered2,baked2,0
 a2,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
 a2,The thoughtful kids saved their hungry mother some food.,The quiet caregiver read the sleepy infant a book.,Was the infant tired?,Yes,DO,DO,saved2,read2,1
 a2,Lily stepped on a lot of toes when she joined the company.,The gardener mowed the wide lawns and seeded them.,Did Lily upset people when she joined the company?,Yes,Filler,Filler,filler59,filler29,0
@@ -133,7 +133,7 @@ b1,The ignorant teenager fed the cute cat some chocolate.,The energetic lifeguar
 b1,Anita lay on the grass and looked up at the stars.,The ornate clock chimed loudly every time it struck a new hour.,Was the clock working?,Yes,Filler,Filler,filler26,filler2,1
 b1,The artistic secretary baked her gentle boss a cake.,The animated teacher told the eager children a story.,Did the secretary bake a cake?,Yes,DO,DO,baked1,told2,0
 b1,The basketball player's ankle swelled as he limped off the court.,"Even though Joanna flew directly to Boston on Friday, she still missed the conference.",Was the basketball player's knee hurt?,No,Filler,Filler,filler35,filler23,0
-b1,The considerate director promised his employees a promotion.,The infamous politician told the influential columnist a secret.,Was the director compassionate?,Yes,DO,DO,promised1,told1,0
+b1,The considerate director promised his employees a promotion.,The infamous politician told the influential columnist a secret.,Did the director care about his employees?,Yes,DO,DO,promised1,told1,0
 b1,The excited toddler blew out all the candles and wished for a pony.,The new manager undid most of the good work of his predecessor.,Was the new manager better than his predecessor?,No,Filler,Filler,filler7,filler25,1
 b1,The dutiful father baked his loving family some pie.,The enthusiastic volunteers offered the sick patients the soup.,Was it the mother who baked the pie?,No,DO,DO,baked2,offered2,0
 b1,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
@@ -183,7 +183,7 @@ b2,The ignorant teenager fed some chocolate to the cute cat.,The energetic lifeg
 b2,Anita lay on the grass and looked up at the stars.,The ornate clock chimed loudly every time it struck a new hour.,Was the clock working?,Yes,Filler,Filler,filler26,filler2,1
 b2,The artistic secretary baked a cake for her gentle boss.,The animated teacher told the eager children a story.,Did the secretary bake a cake?,Yes,PO,DO,baked1,told2,0
 b2,The basketball player's ankle swelled as he limped off the court.,"Even though Joanna flew directly to Boston on Friday, she still missed the conference.",Was the basketball player's knee hurt?,No,Filler,Filler,filler35,filler23,0
-b2,The considerate director promised a promotion to his employees.,The infamous politician told the influential columnist a secret.,Was the director compassionate?,Yes,PO,DO,promised1,told1,0
+b2,The considerate director promised a promotion to his employees.,The infamous politician told the influential columnist a secret.,Did the director care about his employees?,Yes,PO,DO,promised1,told1,0
 b2,The excited toddler blew out all the candles and wished for a pony.,The new manager undid most of the good work of his predecessor.,Was the new manager better than his predecessor?,No,Filler,Filler,filler7,filler25,1
 b2,The dutiful father baked some pie for his loving family.,The enthusiastic volunteers offered the sick patients the soup.,Was it the mother who baked the pie?,No,PO,DO,baked2,offered2,0
 b2,The knight from the storybook slew a dragon to get into the castle.,The two students exchanged notes until they were caught by the teacher.,Did the students exchange gifts?,No,Filler,Filler,filler38,filler19,1
